@@ -1,0 +1,41 @@
+
+*{
+    scroll-behavior: smooth;
+}
+
+.text-primary{
+    color: rgb(255, 176, 6);
+}
+
+.menu-box:before {
+content: "";
+position: absolute;
+top: -100%;
+background-color:orange;
+z-index: 0;
+width: 335px;
+height: 335px;
+border-radius: 50%;
+transform: translateX(-50%);
+left: 50%;
+transition: all 0.5s;
+}
+.menu-box:hover:before {
+top: -190px;
+}
+.menu-box:hover:before {
+top: -190px;
+}
+.menu-box:after {
+position: absolute;
+content: "";
+top: -190px;
+z-index: -1;
+left: 50%;
+transform: translateX(-50%);
+background-color: #555555;
+width: 335px;
+height: 335px;
+transition: all 0.5s;
+border-radius: 50%;
+}
