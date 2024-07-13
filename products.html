@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- css file -->
+        <link rel="stylesheet" href="./dist/style.css">
+        <link rel="stylesheet" href="./dist/index.css">
+    
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+    
+        <title>Products</title>
+    </head>
+    <body dir="rtl" class=" relative bg-center bg-cover bg-fixed" style="background-image: url(./dist/img/body.png);">
+    
+    <!-- nav start -->
+    <nav class="absolute top-0 w-full flex flex-row justify-between items-center px-10 py-2 ">
+        <img src="./dist/img/logo.png" alt="LOGO" class="w-10 md:w-16">
+        <div class="hidden md:flex flex-row items-center justify-around space-x-5">
+            <a href="./index.html" class="text-white text-xl px-5">الرئسية</a>
+            <a href="./products.html" class="text-white text-xl">الاطباق</a>
+            <a href="#" class="text-white text-xl">إتصل بنا</a>
+            <a href="./login.html" class="text-white text-xl">تسجيل الدخول</a>
+            <a href="./user.html" class="text-center rounded-full">
+                <img src="./dist/img/user.png" class="w-8" alt="">
+            </a>
+            <a onclick="showBtn()" href="./cart.html" class="relative text-center">
+                <i class='bx bx-cart-alt text-3xl' style='color:#ffffff'  ></i>
+                <span class="absolute bg-red-500 rounded-full px-[7px] -top-1 -right-3 text-white text-sm">3</span>
+            </a>
+        </div>
+        <button class="felx md:hidden">sass
+            <details>
+                
+            </details>
+        </button>
+     </nav>
+    <!-- nav end -->
+
+
+    <!-- hero start -->
+    <main class="flex flex-col md:flex-row  justify-between items-center bg-fixed
+    py-32 px-2 bg-gradient-to-r bg-cover bg-center" style="background-image: linear-gradient(rgba(56, 56, 56, 0.737), rgba(56, 56, 56, 0.737)) , url(./dist/img/pizza-time-tasty-homemade-traditional-pizza-italian-recipe.jpg) ;">
+
+     <div class="w-full flex flex-col  justify-between items-center space-y-4 h-fit py-5 md:py-10">
+        <h1 class="text-2xl md:text-6xl text-white">أشهى الأطباق بين ايديكم الان بضغطة زر واحدة</h1>
+        
+     </div>
+    </main>
+    <!-- hero end -->
+
+    <!-- product start -->
+     <section class="flex flex-col md:flex-row md:flex-wrap justify-center w-full h-fit mt-10">
+         <!-- cart start -->
+         <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+         <!-- cart start -->
+         <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+         <!-- cart start -->
+         <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+         <!-- cart start -->
+         <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+         <!-- cart start -->
+         <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+        <!-- cart start -->
+        <div class="group rounded-lg menu-box box-hover text-center pt-10 px-5 pb-[30px] bg-black border border-gray-300
+         hover:border-orange-400 h-full flex duration-500 flex-col 
+         relative overflow-hidden z-[1] active
+        w-[250px] mx-5">
+            <div class="w-[150px] min-w-[150px] h-[150px] mt-0 mx-auto mb-[10px] rounded-full border-[9px] border-white duration-[1s] z-[1]">
+                <img src="./dist/img/hero.png" alt="" class="rounded-full group-hover:animate-spin">
+            </div>
+            <div class="mt-auto">
+                <h4 class="mb-2.5 font-bold text-white">
+                    <a href="">
+                        Rice
+                    </a>
+                </h4>
+                <p class="mb-2 text-sm text-white">Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <h5 class="text-primary my-3">50.00DA</h5>
+                <a href="shop-cart.html" class="px-2 py-1 rounded-full bg-orange-400 mt-[18px] text-white">أضف للسلة</a>
+            </div>
+        </div>
+        <!-- cart end -->
+       </div>
+     </section>
+    <!-- product end -->
+
+    <!-- pagination start -->
+    <div class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
+        <div class="flex flex-1 justify-between sm:hidden">
+          <a href="#" class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Previous</a>
+          <a href="#" class="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Next</a>
+        </div>
+        <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
+          <div>
+            <p class="text-sm text-gray-700">
+              صفحة
+              <span class="font-medium">1</span>
+              الى
+              <span class="font-medium">10</span>
+              من
+              <span class="font-medium">97</span>
+              منتج
+            </p>
+          </div>
+          <div>
+            <nav class="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
+              <a href="#" class="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+                <span class="sr-only">Next</span>
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                </svg>
+              </a>
+              <!-- Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" -->
+              <a href="#" aria-current="page" class="relative z-10 inline-flex items-center bg-orange-400 px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600">1</a>
+              <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">2</a>
+              <a href="#" class="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">3</a>
+              <span class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-700 ring-1 ring-inset ring-gray-300 focus:outline-offset-0">...</span>
+              <a href="#" class="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex">8</a>
+              <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">9</a>
+              <a href="#" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">10</a>
+              <a href="#" class="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
+                <span class="sr-only">Previous</span>
+                <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+    <!-- pagination end -->
+
+
+    <!-- footer start -->
+    <footer class="bg-slate-900">        
+        <p class="font-sans p-8 text-start md:text-center md:text-sm md:p-4 text-orange-300/90">.© 2024 You Company Inc. All rights reserved <br>created by <a href="https://www.facebook.com/go.st.1610/" class="underline">Hadbi Mohamed</a></p>
+    </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js file -->
+<script src="./dist/js/main.js"></script>
+</body>
+</html>

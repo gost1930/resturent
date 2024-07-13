@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./dist/index.css">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <title>User</title>
+</head>
+<body dir="rtl" class=" relative bg-center bg-cover bg-fixed" style="background-image: url(./dist/img/body.png);">
+
+    <!-- nav start -->
+    <nav class="absolute top-0 w-full flex flex-row justify-between items-center px-10 py-2 ">
+        <img src="./dist/img/logo.png" alt="LOGO" class="w-10 md:w-16">
+        <div class="hidden md:flex flex-row items-center justify-around space-x-5">
+            <a href="./index.html" class="text-white text-xl px-5">الرئسية</a>
+            <a href="./products.html" class="text-white text-xl">الاطباق</a>
+            <a href="#" class="text-white text-xl">إتصل بنا</a>
+            <a href="./login.html" class="text-white text-xl">تسجيل الدخول</a>
+            <a href="./user.html" class="text-center rounded-full">
+                <img src="./dist/img/user.png" class="w-8" alt="">
+            </a>
+            <a onclick="showBtn()" href="./cart.html" class="relative text-center">
+                <i class='bx bx-cart-alt text-3xl' style='color:#ffffff'  ></i>
+                <span class="absolute bg-red-500 rounded-full px-[7px] -top-1 -right-3 text-white text-sm">3</span>
+            </a>
+        </div>
+        <button class="felx md:hidden">sass
+            <details>
+                
+            </details>
+        </button>
+     </nav>
+    <!-- nav end -->
+
+    <!-- hero start -->
+    <main class="flex flex-col md:flex-row justify-between items-center bg-fixed py-20 px-2 bg-gradient-to-r bg-cover bg-center" style="background-image: linear-gradient(rgba(56, 56, 56, 0.737), rgba(56, 56, 56, 0.737)) , url(./dist/img/pizza-time-tasty-homemade-traditional-pizza-italian-recipe.jpg);">
+        <div class="w-full flex flex-col justify-between items-center space-y-4 h-fit py-5 md:py-10">
+            <h1 class="text-2xl md:text-6xl text-white">Mohamed</h1>
+        </div>
+    </main>
+    <!-- hero end -->
+
+
+    <!--all orders start -->
+    <section class="w-full h-fit">
+        <div class="container mx-auto my-10 p-2">
+            <h1 class="text-4xl font-bold text-center mb-10">الطلبيات</h1>
+            <div class="overflow-x-auto">
+                <table class="min-w-full">
+                    <thead>
+                        <tr>
+                            <th class="py-2 px-4  text-gray-600 font-bold uppercase text-sm text-center">رقم العملية</th>
+                            <th class="py-2 px-4  text-gray-600 font-bold uppercase text-sm text-center">السعر</th>
+                            <th class="py-2 px-4  text-gray-600 font-bold uppercase text-sm text-center">الحالة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200 bg-green-200">
+                            <td class="py-2 px-4 text-center">طلبية 1</td>
+                            <td class="py-2 px-4 text-center">2000</td>
+                            <td class="py-2 px-4 text-center"><a href="" class="text-blue-600">تم</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-red-200">
+                            <td class="py-2 px-4 text-center">طلبية 2</td>
+                            <td class="py-2 px-4 text-center">1500</td>
+                            <td class="py-2 px-4 text-center"><a href="" class="text-blue-600">ملغات</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-gray-200">
+                            <td class="py-2 px-4 text-center">طلبية 3</td>
+                            <td class="py-2 px-4 text-center">2500</td>
+                            <td class="py-2 px-4 text-center"><a href="" class="text-blue-600">تأخر</a></td>
+                        </tr>
+                        <tr class="border-b border-gray-200 bg-yellow-200">
+                            <td class="py-2 px-4 text-center">طلبية 4</td>
+                            <td class="py-2 px-4 text-center">1800</td>
+                            <td class="py-2 px-4 text-center"><a href="" class="text-blue-600">جاري التوصيل</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--all orders end -->
+
+
+    <!-- footer start -->
+    <footer class="bg-slate-900">        
+        <p class="font-sans p-8 text-start md:text-center md:text-sm md:p-4 text-orange-300/90">.© 2024 You Company Inc. All rights reserved <br>created by <a href="https://www.facebook.com/go.st.1610/" class="underline">Hadbi Mohamed</a></p>
+    </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js file -->
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
